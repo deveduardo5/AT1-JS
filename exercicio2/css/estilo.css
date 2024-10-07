@@ -1,0 +1,20 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:floralwhite;
+}
+body {
+    max-width: 700px;
+    padding: 50px;
+    margin: 50px auto;
+}
+.corpo, .rFim {
+    background-color: #524d4d94;
+    max-width: 1100px;
+    padding: 50px;
+    margin: 50px auto;
+    border: 2px solid;
+}
+#resultFim {
+    font-size: 19px;
+    border-bottom: 2px solid black;
+}

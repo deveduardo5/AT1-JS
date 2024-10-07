@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Atividade 1</title>
+</head>
+<body>
+    <section class="corpo">
+        <h3>Digite seu nome completo:</h3>
+        <input type="text" id="nome" placeholder="Nome completo"><br>
+
+        <h3>Digite aqui seu PIS/PASEP:</h3>
+        <input type="text" id="pis" maxlength="11" placeholder="PIS/PASEP"><br>
+
+        <h3>Digite aqui o valor da hora:</h3>
+        <input type="number" id="valor-hora" placeholder="Valor da hora"><br>
+        <h2 id="erroVt"></h2>
+
+        <h3>Digite a quantidade de horas trabalhadas:</h3>
+        <input type="number" id="horas-trabalhadas" placeholder="Quantidade de horas trabalhadas"><br>
+        <h2 id="erroHt"></h2><br><br>
+
+        <button class="btn" type="button">Calcular</button>
+    </section>
+
+    <section class="rFim">
+        <h2 id="resultFim"></h2>
+        <h4>Valor Bruto:</h4>
+        <h4 id="bruto"></h4>
+        <h4>Valor Líquido:</h4>
+        <h4 id="liquido"></h4>
+        <h4>Desconto INSS:</h4>
+        <h4 id="inss"></h4>
+        <h4>Desconto IRPF:</h4>
+        <h4 id="irpf"></h4>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
